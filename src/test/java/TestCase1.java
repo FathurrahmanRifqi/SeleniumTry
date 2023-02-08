@@ -37,8 +37,8 @@ public class TestCase1 {
 
     @Test
     public void firstTry(){
-        driver.get("https://google.com");
-        String expectedTitle = "Google";
+        driver.get("https://lms.poltekssn.ac.id");
+        String expectedTitle = "Politeknik Siber dan Sandi Negara - LMS Poltek SSN";
         String actualTitle = driver.getTitle();
         Assert.assertEquals(actualTitle, expectedTitle);
     }
